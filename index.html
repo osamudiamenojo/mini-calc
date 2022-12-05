@@ -35,6 +35,42 @@
 
         <script>
             <!--  ADD YOUR CODE HERE   -->
+                     <!--  ADD YOUR CODE HERE   -->
+          let add = document.getElementById("plus");
+          
+          let subtract = document.getElementById("minus");
+          
+          let multiply = document.getElementById("multiply");
+          
+          let equals = document.getElementById("equals");
+          
+          let answer = document.getElementById("answer");
+          
+          add.addEventListener('click', () => {
+  let first = parseInt(document.getElementById("no1").value);
+                      
+  let second = parseInt(document.getElementById("no2").value);
+            let result = first + second;
+            answer.innerText= result;
+
+});
+          subtract.addEventListener('click', () => {
+  let first = parseInt(document.getElementById("no1").value);
+                      
+  let second = parseInt(document.getElementById("no2").value);
+            let result = first - second;
+            answer.innerText= result;
+
+});
+          multiply.addEventListener('click', () => {
+  let first = parseInt(document.getElementById("no1").value);
+                      
+  let second = parseInt(document.getElementById("no2").value);
+            let result = first * second;
+            answer.innerText= result;
+
+});
+   
         </script>
     </body>
 </html>
